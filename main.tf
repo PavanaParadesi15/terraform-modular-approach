@@ -18,6 +18,6 @@ variable "instance_type_value" {
 
 module "ec2_instance" {
   source = "./module/ec2_instance"
-  ami = var.ami_value
-  instance_type = var.instance_type_value
+  ami_value = var.ami_value
+  instance_type_value = var.instance_type_value
 }
