@@ -21,3 +21,7 @@ module "ec2_instance" {
   ami_value = var.ami_value
   instance_type_value = var.instance_type_value
 }
+
+output "public-ip-address" {
+  value = module.ec2_instance.public-ip-address
+}
