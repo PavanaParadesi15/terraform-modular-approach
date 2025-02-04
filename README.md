@@ -82,11 +82,17 @@ We can create a seperate repo for terraform modules for each AWS resource. We ca
 ## Sample directory structure
 .
 ├── main.tf
+
 ├── module
+
 │   └── ec2_instance
+
 │       ├── ec2-instance.tf
+
 │       ├── outputs.tf
+
 │       └── variables.tf
+
 └── terraform.tfvars
 
 
