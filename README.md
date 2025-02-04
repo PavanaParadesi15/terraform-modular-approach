@@ -96,7 +96,14 @@ We can create a seperate repo for terraform modules for each AWS resource. We ca
 └── terraform.tfvars
 
 
-
+# Terraform commands
+```
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+tree                   // to see the terraform files directory structure
+```
 
 
 
